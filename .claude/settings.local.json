@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(mkdir -p \"C:/Users/JUAN/Desktop/labcontrol/templates\")",
+      "Bash(cp \"E:/plantillas/LC-FR-10 V4 Inv Inst  PAM.xlsx\" \"C:/Users/JUAN/Desktop/labcontrol/templates/LC-FR-10-inventario.xlsx\")",
+      "Bash(cp \"E:/plantillas/TM028-25A TECSERVICE S.A.S. BALANZA METTLER \\(0,01 A 40 g\\) TEC-MTT-BA-03.xlsx\" \"C:/Users/JUAN/Desktop/labcontrol/templates/cert-balanza.xlsx\")",
+      "Bash(cp \"E:/plantillas/TP046-26 MANOMETRO CARVAL \\(0 a 0,25\\) .xlsx\" \"C:/Users/JUAN/Desktop/labcontrol/templates/cert-manometro.xlsx\")",
+      "Bash(cp \"E:/plantillas/TVO005-26A Tecservice S.A.S. micropipeta \\(100-1000ul\\)\\(1ul\\) TEC-LAB-V-03.xlsx\" \"C:/Users/JUAN/Desktop/labcontrol/templates/cert-micropipeta.xlsx\")",
+      "Bash(node -e \"require\\(''exceljs''\\); console.log\\(''exceljs OK''\\)\")",
+      "Bash(npx tsc:*)"
+    ]
+  }
+}
